@@ -1,6 +1,6 @@
 class Animation 
 {
-    public void GetAnimation()
+    public void GetAnimation(int length)
         {
         List<string> animation = new List<string>();
             animation.Add("|");
@@ -8,7 +8,7 @@ class Animation
             animation.Add("-");
             animation.Add("\\");
             DateTime startTime = DateTime.Now;
-            DateTime endTime = startTime.AddSeconds(30);
+            DateTime endTime = startTime.AddSeconds(length);
             int i = 0;
             while (DateTime.Now < endTime)
             {

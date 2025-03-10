@@ -7,6 +7,7 @@ class Program
 
         Animation animation = new Animation();
         // animation.GetAnimation();
+        // Listeningact listeningact = new Listeningact();
 
         string userInput = "0";
 
@@ -19,15 +20,15 @@ class Program
 
         if (userInput == "1")
         {
-
+            Breathingact.Exercise();
         }
         else if (userInput == "2")
         {
-
+            Reflectionact.Exercise();
         }
         else if (userInput == "3")
         {
-            
+            Listeningact.Exercise();
         }
         else if (userInput == "quit")
         {
