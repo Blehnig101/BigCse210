@@ -2,15 +2,15 @@ using System;
 
 public abstract class Character
 {
-    protected int _player_health;
+    protected int _playerHealth;
 
-    protected int _player_attack;
+    protected int _playerAttack;
 
-    protected int _player_speed;
+    protected int _playerSpeed;
 
-    protected string _player_item;
+    protected string _playerItem;
 
-    protected int _player_defence;
+    protected int _playerDefence;
 
     
     public abstract int Attack();
